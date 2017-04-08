@@ -98,3 +98,16 @@
             return false;
         }
     }
+	
+	/**
+     * 获取文件后缀名
+     * @param type $file_path 文件路径
+     * @return string 文件后缀名
+     */
+    private function get_file_type($file_path) {
+        // 解析文件路径
+        $arr = explode('.', $file_path);
+        // 返回文件后缀名
+        $file_type = array_pop($arr);
+        return $file_type;
+    }
