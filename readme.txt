@@ -1,2 +1,0 @@
-_get_file_pdf_pages该方法需要下载 pdfparser 
-下载地址：https://github.com/smalot/pdfparser
